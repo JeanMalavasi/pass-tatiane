@@ -59,7 +59,7 @@
                           var hours = currentTime.getHours();
                           var minutes = currentTime.getMinutes();
                           var seconds = currentTime.getSeconds();
-                          document.getElementById("time").innerHTML = `Vila Velha, ${daysOfWeek[currentTime.getDay()]}, ${currentTime.getDate()} de ${monthsInPortuguese[currentTime.getMonth()]} de 2023 às ${hours} horas e ${minutes} minutos`;
+                          document.getElementById("time").innerHTML = `Vila Velha, ${daysOfWeek[currentTime.getDay()]}, ${currentTime.getDate()} de ${monthsInPortuguese[currentTime.getMonth()]} de ${currentTime.getFullYear()} às ${hours} horas e ${minutes} minutos`;
                         }
                       
                         setInterval(displayTime, 1);
